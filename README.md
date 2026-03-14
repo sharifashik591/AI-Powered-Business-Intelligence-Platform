@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-Powered Business Intelligence Platform
 
 An end‑to‑end Business Intelligence project that simulates how modern
