@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Powered Business Intelligence Platform
 
 An end‑to‑end Business Intelligence project that simulates how modern
@@ -237,3 +238,7 @@ analytics solution**, covering:
 # Watch Video
 [!\[alt text\](image-4.png)](https://youtu.be/JfOyOsM-ACg)
 
+=======
+# AI-Powered-Business-Intelligence-Platform
+An end‑to‑end Business Intelligence project that simulates how modern companies transform raw operational data into predictive insights. The system integrates data engineering, data warehousing, machine learning, API deployment, and Power BI dashboards.
+>>>>>>> 7d57680f0849e27871bdc12f4b6ea3d97e9dba71
