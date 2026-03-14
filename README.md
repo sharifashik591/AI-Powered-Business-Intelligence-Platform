@@ -130,15 +130,15 @@ Example endpoint:
 
 Executive Business Overview
 
-![alt text](image-1.png)
+![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031546.png)
 
 Sales Forecasting Dashboard
 
-![alt text](image-2.png)
+![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031622.png)
 
 Operations & Inventory Dashboard
 
-![alt text](image-3.png)
+![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031643.png)
 
 Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligence-Platform/blob/master/Dashboard/Professional_Retail_Intelligence_Documentation.pdf
 
@@ -148,24 +148,24 @@ Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligen
 # Skills Demonstrated
 
 Data Engineering\
-SQL ETL pipelines\
-Data cleaning and transformation
+- SQL ETL pipelines\
+- Data cleaning and transformation
 
 Data Warehousing\
-PostgreSQL warehouse design\
-Star schema modeling
+- PostgreSQL warehouse design\
+- Star schema modeling
 
 Machine Learning\
-Time‑series forecasting\
-Feature engineering
+- Time‑series forecasting\
+- Feature engineering
 
 Visualization\
-Power BI dashboards\
-Business KPI monitoring
+- Power BI dashboards\
+- Business KPI monitoring
 
 Backend\
-API development using Flask / FastAPI\
-Model deployment
+- API development using Flask / FastAPI\
+- Model deployment
 
 ------------------------------------------------------------------------
 
@@ -174,16 +174,16 @@ Model deployment
 The platform generates insights that support business decisions.
 
 Revenue Insights\
-Identify top products and regions driving revenue.
+- Identify top products and regions driving revenue.
 
 Demand Forecasting\
-Predict future demand to improve procurement planning.
+- Predict future demand to improve procurement planning.
 
 Profitability Analysis\
-Highlight high‑margin products for marketing focus.
+- Highlight high‑margin products for marketing focus.
 
 Operational Monitoring\
-Track inventory distribution and delivery performance.
+- Track inventory distribution and delivery performance.
 
 ------------------------------------------------------------------------
 
@@ -236,9 +236,6 @@ analytics solution**, covering:
 
 
 # Watch Video
-[!\[alt text\](image-4.png)](https://youtu.be/JfOyOsM-ACg)
+[!\[alt text\](AI-Powered Business Intelligence Platform\image-4.png)](https://youtu.be/JfOyOsM-ACg)
 
-=======
-# AI-Powered-Business-Intelligence-Platform
-An end‑to‑end Business Intelligence project that simulates how modern companies transform raw operational data into predictive insights. The system integrates data engineering, data warehousing, machine learning, API deployment, and Power BI dashboards.
->>>>>>> 7d57680f0849e27871bdc12f4b6ea3d97e9dba71
+
