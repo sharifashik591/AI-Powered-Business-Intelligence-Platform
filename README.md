@@ -128,13 +128,13 @@ Example endpoint:
 # Dashboard Preview
 
 ### Executive Business Overview
-![Executive Overview](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031546.png)
+![Executive Overview](Screenshot%202026-03-15%20031546.png)
 
 ### Sales Forecasting Dashboard
-![Sales Forecasting](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031622.png)
+![Sales Forecasting](Screenshot%202026-03-15%20031622.png)
 
 ### Operations & Inventory Dashboard
-![Operations and Inventory](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031643.png)
+![Operations and Inventory](Screenshot%202026-03-15%20031643.png)
 
 Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligence-Platform/blob/master/Dashboard/Professional_Retail_Intelligence_Documentation.pdf
 
