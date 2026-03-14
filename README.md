@@ -1,151 +1,239 @@
-# 🚀 AI-Powered Business Intelligence Platform
+# AI-Powered Business Intelligence Platform
 
-A **production-grade AI-powered BI platform** portfolio project that simulates an enterprise-level retail analytics system.
+An end‑to‑end Business Intelligence project that simulates how modern
+companies transform raw operational data into predictive insights.\
+The system integrates **data engineering, data warehousing, machine
+learning, API deployment, and Power BI dashboards**.
 
-## 🌟 Core Architecture & Features
+Pipeline overview:
 
-### 🔹 1. Dataset Preparation (Enterprise-Level Data Simulation)
+Raw Data → Data Warehouse → Machine Learning → API → Executive Dashboard
 
-Designed and generated an **industry-standard synthetic dataset** that mimics large-scale retail and supply chain operations of a big company.
+------------------------------------------------------------------------
 
-**The dataset includes:**
-* Customers
-* Products
-* Vendors
-* Orders
-* Order Items
-* Payments
-* Shipments
-* Inventory
-* Pricing history
-* Marketing campaigns
+# Executive Summary
 
-**The data is:**
-* Multi-table relational
-* Time-series based
-* Region-aware
-* Business logic driven (realistic constraints & relationships)
+Retail companies generate massive amounts of operational data from sales
+systems, inventory platforms, logistics tracking, and customer
+transactions.\
+However, without a centralized analytics platform, decision makers
+struggle to extract insights from this data.
 
-*This completely simulates a real production OLTP system.*
+This project simulates a modern analytics platform that:
 
----
+• Centralizes retail data into a **PostgreSQL data warehouse**\
+• Uses a **Star Schema** for analytical performance\
+• Builds **machine learning demand forecasting models**\
+• Deploys predictions through an **API endpoint**\
+• Visualizes insights using **Power BI dashboards**
 
-### 🔹 2. Data Warehouse Architecture (PostgreSQL)
+The result is a system that demonstrates how businesses can move from
+**basic reporting to predictive analytics**.
 
-All data is stored in **PostgreSQL (PgSQL)** and structured using a modern layered warehouse architecture:
+------------------------------------------------------------------------
 
-#### 🏗 Warehouse Layers:
-* **Raw Layer** → Direct ingestion from source
-* **Staging Layer** → Data cleaning, transformation, and processing
-* **Warehouse Layer** → Core business tables
-* **Analytics Layer** → KPI and business metric tables
+# Business Problem
 
-**Implementation Details:**
-* **STAR SCHEMA design**
-* Fact tables (e.g., `fact_sales`)
-* Dimension tables (e.g., `dim_customer`, `dim_product`, `dim_time`, `dim_region`)
-* Optimized joins and indexing for analytics performance
+Retail organizations constantly need answers to questions such as:
 
-*This perfectly mirrors enterprise-level analytics engineering practices.*
+• Which products generate the most revenue?\
+• Which regions drive the most sales?\
+• Which product categories are most profitable?\
+• How will demand change in the future?
 
----
+Without a unified analytics platform, these insights remain hidden
+across separate operational systems.
 
-### 🔹 3. Demand Forecasting (ML Layer)
+This project addresses that challenge by building a **centralized BI
+system** that structures data and provides decision‑ready insights.
 
-From the data warehouse:
-* Connected to PostgreSQL historical sales data
-* Performed feature engineering (time features, lags, rolling averages)
-* Trained demand forecasting models (e.g., Prophet / XGBoost)
-* Evaluated model performance
-* Saved the trained base model for reuse
+------------------------------------------------------------------------
 
-*This enables predictive analytics for future demand planning.*
+# Methodology
 
----
+## Dataset Simulation
 
-### 🔹 4. Forecasting API (Production Simulation)
+A synthetic enterprise retail dataset was created including:
 
-To simulate a real AI-powered system:
-* Built an API endpoint (Flask/FastAPI)
-* When the API is triggered:
-  * It fetches the latest data from the Data Warehouse
-  * Loads the saved base model
-  * Generates new demand forecasts
-  * Returns predictions in real-time
+Customers\
+Products\
+Orders\
+Order Items\
+Payments\
+Shipments\
+Inventory\
+Vendors\
+Marketing Campaigns
 
-*This demonstrates model deployment, API-based inference, and production-level ML integration.*
+The dataset is **multi‑table, relational, time‑series based, and region
+aware**, simulating a real production system.
 
----
+------------------------------------------------------------------------
 
-## 🎯 Project Value
+## Data Warehouse Architecture
 
-This project showcases:
-* End-to-end data engineering
-* Enterprise data warehouse design
-* Analytics engineering best practices
-* Machine learning model training
-* ML model deployment via API
-* Real-world production simulation
+All data is stored in **PostgreSQL** using a layered warehouse design:
 
-It reflects the complete lifecycle:
-> **Data → Warehouse → ML → API → Predictive Business Intelligence**
+Raw Layer -- direct ingestion\
+Staging Layer -- cleaning and transformation\
+Warehouse Layer -- structured business tables\
+Analytics Layer -- KPI tables for dashboards
 
----
+A **Star Schema** was implemented with:
 
-## 🛠️ Installation & Setup Guide
+Fact Table\
+• fact_sales
 
-Follow these steps to set up the project locally.
+Dimension Tables\
+• dim_customer\
+• dim_product\
+• dim_region\
+• dim_time
 
-### 1. Prerequisites
-Ensure you have the following installed:
-* Python 3.9+
-* PostgreSQL & MySQL (or Docker to run them)
-* Git
+------------------------------------------------------------------------
 
-### 2. Clone the Repository
-```bash
-git clone https://github.com/your-username/ai-powered-bi-platform.git
-cd ai-powered-bi-platform
-```
+## Machine Learning Forecasting
 
-### 3. Create a Virtual Environment
-```bash
-python -m venv env
-# On Windows:
-env\Scripts\activate
-# On macOS/Linux:
-source env/bin/activate
-```
+Historical sales data is used to forecast demand using time‑series
+models.
 
-### 4. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-*(If you don't have a `requirements.txt` yet, you can install the main packages directly: `pip install pandas numpy scikit-learn flask sqlalchemy python-dotenv psycopg2-binary mysql-connector-python joblib`)*
+Steps include:
 
-### 5. Setup Environment Variables
-Create a `.env` file in the root directory (or use the existing one) with your database credentials:
-```env
-# PostgreSQL Credentials
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=ai_bi_project
-DB_USER=postgres
-DB_PASSWORD=your_postgres_password
+• Feature engineering (lags, rolling averages)\
+• Model training (Prophet / XGBoost)\
+• Model evaluation\
+• Model saving for reuse
 
-# MySQL Credentials
-MYSQL_HOST=localhost
-MYSQL_PORT=3306
-MYSQL_USER=root
-MYSQL_PASSWORD=your_mysql_password
-MYSQL_DB=flagship_project
-```
+This allows predictive demand planning for supply chain optimization.
 
-### 6. Run the Application
-Start the Flask API server:
-```bash
-python ML_Layer/Demand_Forecasting/app.py
-```
-The server will start running on `http://127.0.0.1:5000`. You can now trigger the forecasting API by making a GET or POST request to `/forecast`.
+------------------------------------------------------------------------
 
+## Forecasting API
+
+A **Flask/FastAPI API** exposes the forecasting model.
+
+The API:
+
+1.  Connects to PostgreSQL\
+2.  Loads the trained model\
+3.  Generates predictions\
+4.  Returns forecasts via endpoint
+
+Example endpoint:
+
+/forecast
+
+------------------------------------------------------------------------
+
+# Dashboard Preview
+
+Executive Business Overview
+
+![alt text](image-1.png)
+
+Sales Forecasting Dashboard
+
+![alt text](image-2.png)
+
+Operations & Inventory Dashboard
+
+![alt text](image-3.png)
+
+Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligence-Platform/blob/master/Dashboard/Professional_Retail_Intelligence_Documentation.pdf
+
+
+------------------------------------------------------------------------
+
+# Skills Demonstrated
+
+Data Engineering\
+SQL ETL pipelines\
+Data cleaning and transformation
+
+Data Warehousing\
+PostgreSQL warehouse design\
+Star schema modeling
+
+Machine Learning\
+Time‑series forecasting\
+Feature engineering
+
+Visualization\
+Power BI dashboards\
+Business KPI monitoring
+
+Backend\
+API development using Flask / FastAPI\
+Model deployment
+
+------------------------------------------------------------------------
+
+# Results & Business Recommendations
+
+The platform generates insights that support business decisions.
+
+Revenue Insights\
+Identify top products and regions driving revenue.
+
+Demand Forecasting\
+Predict future demand to improve procurement planning.
+
+Profitability Analysis\
+Highlight high‑margin products for marketing focus.
+
+Operational Monitoring\
+Track inventory distribution and delivery performance.
+
+------------------------------------------------------------------------
+
+# Next Steps
+
+Possible improvements include:
+
+• Real‑time streaming pipelines (Kafka)\
+• Workflow automation using Airflow\
+• Advanced deep learning forecasting models\
+• Cloud deployment (AWS / GCP / Snowflake)\
+• CI/CD pipelines for ML deployment
+
+------------------------------------------------------------------------
+
+# Installation
+
+Clone repository
+
+* git clone https://github.com/sharifashik591/AI-Powered-Business-Intelligence-Platform
+
+Create environment
+
+* python -m venv env
+
+Install dependencies
+
+* pip install -r requirements.txt
+
+Run API
+
+* python ML_Layer/Demand_Forecasting/app.py
+
+API runs at:
+
+* http://127.0.0.1:5000
+
+------------------------------------------------------------------------
+
+# Project Value
+
+This project demonstrates the ability to design a **complete end‑to‑end
+analytics solution**, covering:
+
+* Data engineering\
+* Data warehouse architecture\
+* Machine learning forecasting\
+* API deployment\
+* Executive BI dashboards
+
+
+# Watch Video
+[!\[alt text\](image-4.png)](https://youtu.be/JfOyOsM-ACg)
 
