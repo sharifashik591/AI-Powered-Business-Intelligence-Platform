@@ -127,17 +127,14 @@ Example endpoint:
 
 # Dashboard Preview
 
-Executive Business Overview
+### Executive Business Overview
+![Executive Overview](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031546.png)
 
-![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031546.png)
+### Sales Forecasting Dashboard
+![Sales Forecasting](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031622.png)
 
-Sales Forecasting Dashboard
-
-![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031622.png)
-
-Operations & Inventory Dashboard
-
-![alt text](AI-Powered Business Intelligence Platform\Screenshot 2026-03-15 031643.png)
+### Operations & Inventory Dashboard
+![Operations and Inventory](AI-Powered%20Business%20Intelligence%20Platform/Screenshot%202026-03-15%20031643.png)
 
 Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligence-Platform/blob/master/Dashboard/Professional_Retail_Intelligence_Documentation.pdf
 
@@ -146,24 +143,24 @@ Documentation : https://github.com/sharifashik591/AI-Powered-Business-Intelligen
 
 # Skills Demonstrated
 
-Data Engineering\
-- SQL ETL pipelines\
+Data Engineering
+- SQL ETL pipelines
 - Data cleaning and transformation
 
-Data Warehousing\
-- PostgreSQL warehouse design\
+Data Warehousing
+- PostgreSQL warehouse design
 - Star schema modeling
 
-Machine Learning\
-- Time‑series forecasting\
+Machine Learning
+- Time‑series forecasting
 - Feature engineering
 
-Visualization\
-- Power BI dashboards\
+Visualization
+- Power BI dashboards
 - Business KPI monitoring
 
-Backend\
-- API development using Flask / FastAPI\
+Backend
+- API development using Flask / FastAPI
 - Model deployment
 
 ------------------------------------------------------------------------
@@ -172,16 +169,16 @@ Backend\
 
 The platform generates insights that support business decisions.
 
-Revenue Insights\
+Revenue Insights
 - Identify top products and regions driving revenue.
 
-Demand Forecasting\
+Demand Forecasting
 - Predict future demand to improve procurement planning.
 
-Profitability Analysis\
+Profitability Analysis
 - Highlight high‑margin products for marketing focus.
 
-Operational Monitoring\
+Operational Monitoring
 - Track inventory distribution and delivery performance.
 
 ------------------------------------------------------------------------
@@ -190,10 +187,10 @@ Operational Monitoring\
 
 Possible improvements include:
 
-• Real‑time streaming pipelines (Kafka)\
-• Workflow automation using Airflow\
-• Advanced deep learning forecasting models\
-• Cloud deployment (AWS / GCP / Snowflake)\
+• Real‑time streaming pipelines (Kafka)
+• Workflow automation using Airflow
+• Advanced deep learning forecasting models
+• Cloud deployment (AWS / GCP / Snowflake)
 • CI/CD pipelines for ML deployment
 
 ------------------------------------------------------------------------
@@ -227,10 +224,10 @@ API runs at:
 This project demonstrates the ability to design a **complete end‑to‑end
 analytics solution**, covering:
 
-* Data engineering\
-* Data warehouse architecture\
-* Machine learning forecasting\
-* API deployment\
+* Data engineering
+* Data warehouse architecture
+* Machine learning forecasting
+* API deployment
 * Executive BI dashboards
 
 
