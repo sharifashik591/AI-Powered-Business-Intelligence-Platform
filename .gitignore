@@ -1,0 +1,102 @@
+# ======================
+
+dataset/
+business_bi.duckdb
+
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ======================
+# Jupyter Notebooks
+# ======================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ======================
+# Data Files (keep structure, ignore large/sensitive data)
+# ======================
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+*.db
+*.sqlite
+*.h5
+*.hdf5
+# *.pkl
+# *.pickle
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# ======================
+# Credentials & Secrets
+# ======================
+# *.json
+!requirements*.json
+*.env
+.env
+.env.*
+secrets/
+credentials/
+*credentials*.json
+*service_account*.json
+*key*.json
+config/secrets.py
+
+# ======================
+# Logs & Reports
+# ======================
+*.log
+logs/
+reports/output/
+
+# ======================
+# IDEs & Editors
+# ======================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# Google Sheets / API Cache
+# ======================
+token.json
+token.pickle
+
+# ======================
+# Misc
+# ======================
+*.tmp
+*.bak
+*.orig
+dataset
