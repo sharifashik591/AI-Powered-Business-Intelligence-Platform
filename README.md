@@ -232,6 +232,6 @@ analytics solution**, covering:
 
 
 # Watch Video
-[!\[alt text\](AI-Powered Business Intelligence Platform\image-4.png)](https://youtu.be/JfOyOsM-ACg)
+[!\[alt text\](image-4.png)](https://youtu.be/JfOyOsM-ACg)
 
 
