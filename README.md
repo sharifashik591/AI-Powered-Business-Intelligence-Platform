@@ -136,7 +136,7 @@ Example endpoint:
 ### Operations & Inventory Dashboard
 ![Operations and Inventory](Screenshot%202026-03-15%20031643.png)
 
-([Documentation]([https://docs.google.com/document/d/1QaCR51aRXDn8WgntIT8czFkmgNo4SxC2IRVUEIO7GDM/edit?usp=sharing](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing)))
+([Full Documentation in pdf](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing))
 
 
 ------------------------------------------------------------------------
