@@ -55,15 +55,15 @@ system** that structures data and provides decision‑ready insights.
 
 A synthetic enterprise retail dataset was created including:
 
-Customers\
-Products\
-Orders\
-Order Items\
-Payments\
-Shipments\
-Inventory\
-Vendors\
-Marketing Campaigns
+- Customers\
+- Products\
+- Orders\
+- Order Items\
+- Payments\
+- Shipments\
+- Inventory\
+- Vendors\
+- Marketing Campaigns
 
 The dataset is **multi‑table, relational, time‑series based, and region
 aware**, simulating a real production system.
