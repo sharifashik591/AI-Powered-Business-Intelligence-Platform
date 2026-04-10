@@ -1,5 +1,5 @@
 # AI-Powered Business Intelligence Platform
-
+### ([Full Documentation in pdf](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing))
 An end‑to‑end Business Intelligence project that simulates how modern
 companies transform raw operational data into predictive insights.\
 The system integrates **data engineering, data warehousing, machine
@@ -136,7 +136,6 @@ Example endpoint:
 ### Operations & Inventory Dashboard
 ![Operations and Inventory](Screenshot%202026-03-15%20031643.png)
 
-([Full Documentation in pdf](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing))
 
 
 ------------------------------------------------------------------------
