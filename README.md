@@ -1,5 +1,5 @@
 # AI-Powered Business Intelligence Platform
-### ([Full Documentation in pdf](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing)) || [Power BI Dashboard]([https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing](https://app.powerbi.com/view?r=eyJrIjoiZGQyODM3ZTktMDMwMi00MDkxLWE0ZTYtZDliZjQxODY4YmQxIiwidCI6IjY0YzlmMGNlLTg4YzAtNDdhNy04MzgwLTAyYjI1NDFjNTkxMyIsImMiOjEwfQ%3D%3D))
+### ([Full Documentation in pdf](https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing)) || [Power BI Dashboard]([https://docs.google.com/document/d/1EtATmOgRawsbJVgVj7k4QfVyXWZ8rEOnCn8GaUprS_E/edit?usp=sharing](https://app.powerbi.com/view?r=eyJrIjoiZGQyODM3ZTktMDMwMi00MDkxLWE0ZTYtZDliZjQxODY4YmQxIiwidCI6IjY0YzlmMGNlLTg4YzAtNDdhNy04MzgwLTAyYjI1NDFjNTkxMyIsImMiOjEwfQ%3D%3D)
 An end‑to‑end Business Intelligence project that simulates how modern
 companies transform raw operational data into predictive insights.\
 The system integrates **data engineering, data warehousing, machine
